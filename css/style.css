@@ -1,0 +1,90 @@
+body, h1, h2, p, a, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: hsl(233, 47%, 7%);
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+  border-radius: .8rem;
+  background: hsl(244, 38%, 16%);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.info {
+  padding: 2rem;
+}
+
+.info ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info h1 {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.info h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.desc {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 1rem 0;
+  font-size: .9rem;
+  line-height: 1.7rem;
+  max-width: 95%;
+}
+
+.info li p {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: .75rem;
+  letter-spacing: .1rem;
+  margin-top: .5rem;
+}
+
+.info li {
+  padding: 1rem 0;
+}
+
+
+
+.attribution { 
+  font-size: 10px; text-align: center;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 5%;
+}
+
+.attribution a {
+  color: hsla(0, 0%, 100%, 0.6); 
+}
