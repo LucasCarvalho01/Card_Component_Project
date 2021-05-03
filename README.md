@@ -5,6 +5,7 @@
 ## The challenge
 
 The challenge is to build out the card component as shown in the design above. It has optimal layout depending on the device's screen size.
+Link to the challenge: (https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 
 ## Live Site
 
