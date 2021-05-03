@@ -37,6 +37,14 @@ li {
   overflow: hidden;
 }
 
+.image {
+  background: hsl(277, 96%, 37%);
+}
+
+.image img {
+  opacity: .5;
+}
+
 .img-desktop {
   display: none;
 }
