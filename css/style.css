@@ -41,9 +41,10 @@ li {
   display: none;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 1024px) {
   .img-desktop {
     display: block;
+    height: 100%;
   }
 
   .img-mobile {
@@ -52,7 +53,7 @@ li {
 
   .card {
     flex-direction: row-reverse;
-    max-width: 1100px;
+    max-width: 76.38%;
     text-align: left;
   }
 }
@@ -96,13 +97,47 @@ li {
   padding: 1rem 0;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 1024px) {
   .info {
     width: 50%;
+    padding: 6%;
+  }
+
+  .info h1 {
+    font-size: 2.5vw;
+    margin: 1.5% 0;
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  .desc {
+    line-height: 1.75vw;
+    font-size: 1.05vw;
+    padding: 1.1vw 0;
+    max-width: 85%;
   }
 
   .info ul {
     flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  .info li {
+    margin: 1.1vw 0 0;
+    padding: 2.8vw 0 0;
+  }
+
+  .info h2 {
+    font-size: 1.7vw;
+  }
+
+  .info li p {
+    font-size: .9vw;
+    margin-top: .5vw;
+    font-family: 'Lexend Deca', sans-serif;
   }
 }
 
