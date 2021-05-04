@@ -38,11 +38,12 @@ li {
 }
 
 .image {
-  background: hsl(277, 96%, 37%);
+  background: hsl(277, 64%, 61%);
 }
 
 .image img {
-  opacity: .5;
+  opacity: .85;
+  mix-blend-mode: multiply;
 }
 
 .img-desktop {
@@ -122,7 +123,7 @@ li {
 
   .desc {
     line-height: 1.75vw;
-    font-size: 1.05vw;
+    font-size: clamp(.8rem, 1.05vw, 999rem);
     padding: 1.1vw 0;
     max-width: 85%;
   }
@@ -140,10 +141,12 @@ li {
 
   .info h2 {
     font-size: 1.7vw;
+    font-size: clamp(1.4rem, 1.7vw, 999rem);
   }
 
   .info li p {
     font-size: .9vw;
+    font-size: clamp(.7rem, .9vw, 999rem);
     margin-top: .5vw;
     font-family: 'Lexend Deca', sans-serif;
   }
